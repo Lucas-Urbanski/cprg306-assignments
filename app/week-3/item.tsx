@@ -21,8 +21,4 @@ const Item = ({ name, quantity, category }: ItemProps) => {
   );
 };
 
-export interface Items {
-  items: ItemProps[];
-}
-
 export default Item;
