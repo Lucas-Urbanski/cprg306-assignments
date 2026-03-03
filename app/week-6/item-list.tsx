@@ -39,7 +39,7 @@ return (
           Sort By Both
         </button>
       </div>
-      <div className="rounded-sm bg-gray-800 p-2 mt-4">
+      <div className="rounded-sm bg-gray-800 p-2 mt-3">
         {sortBy === "categoryList" ? (
           categoryList.map((categoryList, index) => (
             <div key={index}>
