@@ -30,12 +30,12 @@ export default function Page() {
 
   if (!user) {
     return (
-      <div className="flex justify-center bg-emerald-500 h-screen items-center">
-        <div className="flex flex-col text-center items-center bg-gray-200 w-1/3 pt-10 pb-10 gap-8">
+      <div className="flex justify-center bg-zinc-900 h-screen items-center">
+        <div className="flex flex-col text-center items-center rounded-sm bg-zinc-800 w-1/3 p-5 gap-8">
           <h1>Please log in to view the shopping list.</h1>
           <Link
             href={"/week-8"}
-            className="border rounded-sm p-2 bg-cyan-300 w-1/3"
+            className="border rounded-sm p-2 bg-blue-400 w-1/3"
           >
             Login page
           </Link>
