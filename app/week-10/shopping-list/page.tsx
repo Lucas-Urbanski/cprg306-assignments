@@ -43,7 +43,7 @@ export default function Page() {
 
   if (!user) {
     return (
-      <div className="flex justify-center bg-zinc-900 h-screen items-center">
+      <div className="flex justify-center bg-zinc-900 min-h-screen items-center">
         <div className="flex flex-col text-center items-center rounded-sm bg-zinc-800 w-1/3 p-5 gap-8">
           <h1>Please log in to view the shopping list.</h1>
           <Link
