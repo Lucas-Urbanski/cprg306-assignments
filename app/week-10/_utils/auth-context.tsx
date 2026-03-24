@@ -26,7 +26,7 @@ export const AuthContextProvider = ({ children }: { children: ReactNode }) => {
     return signInWithPopup(auth, provider);
   };
  
-  const firebaseSignOut = () => {
+  const firebaseSignOut = async () => {
     return signOut(auth);
   };
  
