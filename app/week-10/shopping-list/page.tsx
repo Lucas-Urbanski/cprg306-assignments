@@ -43,7 +43,7 @@ export default function Page() {
 
   if (!user) {
     return (
-      <div className="flex justify-center bg-zinc-900 h-full items-center">
+      <div className="flex justify-center bg-zinc-900 items-center">
         <div className="flex flex-col text-center items-center rounded-sm bg-zinc-800 w-1/3 p-5 gap-8">
           <h1>Please log in to view the shopping list.</h1>
           <Link
@@ -58,7 +58,7 @@ export default function Page() {
   }
 
   return (
-    <main className="flex justify-center px-20 p-4 bg-zinc-900">
+    <main className="flex justify-center px-20 p-4 min-h-screen bg-zinc-900">
       <div className="flex flex-col">
         <h1 className="font-bold text-2xl ">Shopping List</h1>
         <NewItem onAddItem={handleAddItem} />
